@@ -41,6 +41,14 @@
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
+  margin-left: auto; /* 添加这一行以使标题居中 */
+  margin-right: auto; /* 添加这一行以使标题居中 */
+}
+
+.full-width-bg {
+  width: 100%; /* 占满屏幕宽度 */
+  background-color: #f8f9fa; /* 浅灰色背景 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
 }
 
 @media (max-width: 576px) {
@@ -51,13 +59,15 @@
   .title {
     font-size: 26px;
   }
+}
 </style>
 
 </head>
 
 <body>
-<div class="container custom-container">
-    <h1 class="title custom-title">郝家桥镇问题受理平台</h1>
+<div class="full-width-bg">
+  <h1 class="title">郝家桥镇问题受理平台</h1>
+</div>
 
     <form>
         <div class="form-group">
