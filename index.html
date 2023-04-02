@@ -30,38 +30,26 @@
   .custom-title {
     margin-bottom: 30px; /* 根据需要调整边距大小 */
   }
+ .title {
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
   .title {
-    font-size: 36px; /* 增加字体大小 */
-    color: #333333; /* 修改字体颜色为黑色 */
-    font-family: 'Microsoft YaHei', 'Noto Sans SC', sans-serif; /* 更改字体样式，首选微软雅黑 */
-    font-weight: normal; /* 加粗标题 */
-  }
-  .jumbotron {
-    background: none; /* 移除背景颜色 */
-    box-shadow: none; /* 移除阴影效果 */
-  }
-    /* 其他样式保持不变 */
-  margin-top: 20px; /* 增加顶部边距 */
-  margin-bottom: 20px; /* 增加底部边距 */
-}
-    .title {
-  /* 其他样式保持不变 */
-  background-color: #f8f9fa; /* 浅灰色背景 */
-  padding: 10px; /* 在标题内添加一些内边距，使其看起来更舒适 */
-}
-
-    .title {
-  /* 其他样式保持不变 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-}
-  @media (max-width: 576px) {
-    .container {
-      max-width: 100%;
-    }
-
-    .title {
-      font-size: 26px; /* 增加小屏幕下的字体大小 */
-    }
+    font-size: 26px;
   }
 </style>
 
